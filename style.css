@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    /* Colors */
+    --light-blue: #1992d4;
+    --white: #ffffff;
+    --black: #101010;
+    --search-color: #e2e8f0;
+    --p-text: #c2c1c1;
+    --yellow: #e3b030;
+}
