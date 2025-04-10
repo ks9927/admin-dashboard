@@ -50,3 +50,13 @@ body {
     flex-direction: column;
 }
 
+.header-icon {
+    height: 10%;
+    width: 10%;
+}
+
+.profile-icon {
+    height: 15%;
+    width: 15%;
+}
+
