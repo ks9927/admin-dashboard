@@ -45,3 +45,8 @@ body {
     gap: 25px;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
