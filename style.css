@@ -64,3 +64,12 @@ body {
     width: 20%;
 }
 
+.search,
+.notifications,
+.profile-info,
+.posting {
+    display: flex;
+    align-items: center;
+}
+
+
