@@ -198,6 +198,6 @@ input {
     width: 30px;
 }
 
-.dashboard, .header, .projects, .announce, .trending {
+/* .dashboard, .header, .projects, .announce, .trending {
     outline: 2px solid red;
-}
+} */
