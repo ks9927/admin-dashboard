@@ -9,8 +9,7 @@
     --light-blue: #1992d4;
     --white: #ffffff;
     --black: #101010;
-    --search-color: #e2e8f0;
-    --p-text: #c2c1c1;
+    --gray: #c2c1c1;
     --yellow: #e3b030;
 }
 
@@ -85,6 +84,10 @@ body {
     padding: 8px;
     border-radius: 50px;
     font-weight: bold;
+}
+
+.projects {
+    background-color: var(--gray);
 }
 
 .card-icons img {
