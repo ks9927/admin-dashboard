@@ -23,6 +23,7 @@ body {
     color: var(--white);
     display: flex;
     flex-direction: column;
+    width: 400px;
 }
 
 .dash-icon {
@@ -87,7 +88,8 @@ body {
     font-weight: bold;
 }
 
-.projects {
+.projects,
+.announce {
     background-color: var(--gray);
 }
 
@@ -103,7 +105,8 @@ body {
     border-left: solid 5px var(--yellow);
 }
 
-.card-para {
+.card-para,
+.announce-para {
     color: var(--p-text);
 }
 
@@ -120,5 +123,22 @@ body {
 .card-icons img {
     width: 25px;
 }
+
+.announce-card {
+    width: 300px;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.announce-title,
+.announce-heading {
+    font-weight: bold;
+}
+
+.announce-tab {
+    border-bottom: solid 1px var(--gray);
+}
+
+
 
 
