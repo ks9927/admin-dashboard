@@ -87,4 +87,8 @@ body {
     font-weight: bold;
 }
 
+.card-icons img {
+    width: 25px;
+}
+
 
