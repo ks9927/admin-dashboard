@@ -11,6 +11,7 @@
     --black: #101010;
     --gray: #c2c1c1;
     --yellow: #e3b030;
+    --p-text: #656363;
 }
 
 body {
@@ -93,6 +94,27 @@ body {
 .projects-heading,
 .card-heading {
     font-weight: bold;
+}
+
+.card {
+    background-color: var(--white);
+    width: 300px;
+    padding: 10px;
+    border-left: solid 5px var(--yellow);
+}
+
+.card-para {
+    color: var(--p-text);
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
 }
 
 .card-icons img {
