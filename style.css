@@ -89,12 +89,14 @@ body {
 }
 
 .projects,
-.announce {
+.announce,
+.trending {
     background-color: var(--gray);
 }
 
 .projects-heading,
-.card-heading {
+.card-heading,
+.trending-heading {
     font-weight: bold;
 }
 
@@ -106,7 +108,8 @@ body {
 }
 
 .card-para,
-.announce-para {
+.announce-para,
+.trending-para {
     color: var(--p-text);
 }
 
@@ -131,7 +134,8 @@ body {
 }
 
 .announce-title,
-.announce-heading {
+.announce-heading,
+.trending-title {
     font-weight: bold;
 }
 
@@ -139,6 +143,18 @@ body {
     border-bottom: solid 1px var(--gray);
 }
 
+.trending-card {
+    width: 300px;
+    background-color: var(--white);
+}
 
+.trending-tab {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.trending-tab img {
+    width: 30px;
+}
 
 
