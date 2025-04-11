@@ -31,17 +31,22 @@ body {
     color: var(--white);
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     grid-area: dashboard;
 }
 
 .dash-icon {
     /* Make svg white */
     filter: invert(92%) sepia(0%) saturate(7500%) hue-rotate(95deg) brightness(112%) contrast(107%);
-    height: 10%;
-    width: 10%;
+    width: 20px;
 }
 
+.dash-heading,
+.dash-main,
+.dash-footer {
+    margin-top: 30px;
+    margin-left: 30px;
+}
 .dashboard p {
     font-weight: bold;
     font-size: 1.5rem;
@@ -52,7 +57,7 @@ body {
 .dash-heading {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
 }
 
 .header {
