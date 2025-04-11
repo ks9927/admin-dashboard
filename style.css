@@ -90,6 +90,11 @@ body {
     background-color: var(--gray);
 }
 
+.projects-heading,
+.card-heading {
+    font-weight: bold;
+}
+
 .card-icons img {
     width: 25px;
 }
