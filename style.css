@@ -78,4 +78,13 @@ body {
     font-size: 1.2rem;
 }
 
+.posting button {
+    color: var(--white);
+    background-color: var(--light-blue);
+    border: solid 2px var(--light-blue);
+    padding: 8px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
 
